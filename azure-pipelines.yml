@@ -17,7 +17,7 @@ steps:
 
 - script: |
     npm install
-    npm start
-  displayName: 'npm install and start'
+    npm run build
+  displayName: 'npm install and run'
   
 - task: PublishBuildArtifacts@1
